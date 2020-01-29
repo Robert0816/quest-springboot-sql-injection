@@ -8,7 +8,31 @@ public class CreditCard {
   private long customerId;
   private String type;
   private String number;
-  private String cvv;
+  public void setId(long id) {
+	this.id = id;
+}
+
+public void setCustomerId(long customerId) {
+	this.customerId = customerId;
+}
+
+public void setType(String type) {
+	this.type = type;
+}
+
+public void setNumber(String number) {
+	this.number = number;
+}
+
+public void setCvv(String cvv) {
+	this.cvv = cvv;
+}
+
+public void setExpiry(String expiry) {
+	this.expiry = expiry;
+}
+
+private String cvv;
   private String expiry;
 
   public CreditCard(long id, long customerId, String type, String number, String cvv, String expiry) {

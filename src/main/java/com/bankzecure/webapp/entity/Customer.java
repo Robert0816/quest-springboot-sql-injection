@@ -22,7 +22,27 @@ public class Customer {
     return id;
   }
 
-  public String getIdentifier() {
+  public void setId(long id) {
+	this.id = id;
+}
+
+public void setIdentifier(String identifier) {
+	this.identifier = identifier;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public void setEmail(String email) {
+	this.email = email;
+}
+
+public String getIdentifier() {
     return identifier;
   }
 
